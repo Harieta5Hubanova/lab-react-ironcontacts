@@ -7,3 +7,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.add,
+.popularity,
+.name {
+  margin: 10px;
+}
